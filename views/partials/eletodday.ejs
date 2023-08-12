@@ -1,0 +1,7 @@
+<div class="item">
+    <form action="/delete" method="post" style="display: inline-block;">
+        <input name="ckk" value="<%- i._id %>" type="checkbox" class="ck" onchange="this.form.submit()">
+        <label><span><%-i.name%></span></label>
+        <input type="hidden" name="check" value="<%- title %>">
+    </form>
+</div>
